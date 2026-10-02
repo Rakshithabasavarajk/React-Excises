@@ -1,0 +1,114 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+html,body{
+  height:100%;
+  width:100%; 
+  background-color: rgb(225, 217, 217);
+}
+
+.parent{
+   padding:20px;
+  flex-wrap: wrap;
+  display:flex;
+  gap:20px;
+}
+
+.card{
+  height:360px;
+  width:280px;
+  color:black;
+  padding:30px;
+  background-color: rgb(218, 207, 207);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+
+}
+.top img{
+  padding:10px;
+  height:50px;
+  width:50px;
+  border-radius: 60%;
+  object-fit: cover;
+  border:solid #fdf3f3 1px;
+  padding:1px;
+
+}
+.top button
+{
+  border-radius: 5px;
+  align-items: center;
+  display:flex;
+  border:1px solid #dadada;
+  padding:4px 8px;
+  background-color: transparent;
+
+}
+
+.center{
+  padding-top:40px;
+}
+
+.center h3 span
+{
+  font-size: 10px;
+  font-weight:500;
+  color:#979292
+  
+}
+.center h2{
+  font-size: 15px;
+  font-weight: 700;
+
+}
+.center .tag
+{
+  display:flex;
+  margin-top:10px;
+  gap:5px; 
+}
+.center .tag h4{
+  font-size:12px;
+  background-color: #dadada;
+  color:black;
+  font-weight: 500;
+  padding:3px 6px;
+  border-radius: 5px;
+}
+
+.bottom
+{
+ align-items: center;
+  display:flex;
+  justify-content: space-between; 
+  border-top:1px solid #dadada;
+  padding:10px 0px
+} 
+.bottom h3{
+  font-size: 17px;
+}
+.bottom p{
+  font-size: 12px;
+  color:rgb(182, 169, 169);
+}
+.bottom button{
+    display:flex;
+    font-size:12px;
+    background-color: black;
+    color:azure;
+    border:none;
+    border-radius: 7px;
+    padding:5px
+}
