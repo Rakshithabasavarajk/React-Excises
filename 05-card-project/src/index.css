@@ -1,0 +1,41 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background-color:rgb(162, 162, 158);
+
+}
+.parent{
+  padding:20px;
+  flex-wrap: wrap;
+  display:flex;
+  gap:20px;
+}
+
+.card
+{
+    height:400px;
+    width:250px;
+    background-color: rgb(234, 237, 237);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:40px 30px;
+    color:black;
+}
+
+.top img{
+    height:115px;
+    width:105px;
+    border-radius: 60%;
+    object-fit: cover;
+    padding:2px 2px;
+    align-items: center;    
+}
